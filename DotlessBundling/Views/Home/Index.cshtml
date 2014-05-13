@@ -1,7 +1,20 @@
 ﻿@{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "System.Web.Optimization.Less (dotless) Bundling";
 }
 
 <h2>This is System.Web.Optimization.Less (dotless) bundling</h2>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit fusce vel sapien elit in malesuada semper mi, id sollicitudin urna fermentum ut fusce varius nisl ac ipsum gravida vel pretium tellus.
+<h3>Advantages</h3>
+
+<ul>
+    <li>Very few dependencies (only on dotless).</li>
+    <li>Doesn't call out to JS, totally .NET based.</li>
+    <li>Not much configuration.</li>
+    <li>Transformer is simpler.</li>
+</ul>
+
+<h3>Disadvantages</h3>
+
+<ul>
+    <li>dotless is not up to date with Less versions, may behave differently compared to regular less.</li>
+</ul>

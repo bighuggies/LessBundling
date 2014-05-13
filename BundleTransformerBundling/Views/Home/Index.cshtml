@@ -1,0 +1,22 @@
+﻿@{
+    ViewBag.Title = "BundleTransformer.LESS Bundling";
+}
+
+<h2>This is BundleTransformer.LESS bundling</h2>
+
+<h3>Advantages</h3>
+
+<ul>
+    <li>Can use much more up to date version of less (uses Less.js to compile).</li>
+    <li>BundleTransformer has many other transformers, easier to introduce new transformations (TypeScript?).</li>
+    <li>Transformer is potentially more flexible.</li>
+</ul>
+
+<h3>Disadvantages</h3>
+
+<ul>
+    <li>Implicit dependency on IE > 9 being installed on system.</li>
+    <li>Calls out to JS engine, maybe slower?</li>
+    <li>Has way more dependencies and way more transitive dependencies.</li>
+    <li>Has more configuration than dotless.</li>
+</ul>
